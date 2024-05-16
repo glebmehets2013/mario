@@ -1,0 +1,407 @@
+body{
+    background: url('./night.gif');
+    background-size: cover;
+
+}
+
+
+.platform {
+    position: absolute;
+    bottom: 0;
+    background: url(./pol.jpg);
+    height: 100px;
+    left: 0;
+    width: 100%;
+}
+
+
+.mario{
+    position: absolute;
+    width: 80px;
+    bottom: 100px;
+    transition: 0.2s;
+}
+
+.block{
+    position: absolute;
+    width: 35px;
+}
+
+.block1 {
+    bottom: 150px;
+    left: 100px;
+}
+
+.block2 {
+    bottom: 150px;
+    left: 135px;
+}
+
+
+
+
+.block3 {
+    bottom: 150px;
+    left: 170px;
+}
+
+.block4 {
+    bottom: 150px;
+    left: 205px;
+}
+
+
+.block5 {
+    bottom: 150px;
+    left: 240px;
+}
+
+.block6 {
+    bottom: 150px;
+    left: 275px;
+}
+
+.block7 {
+    bottom: 150px;
+    left: 310px;
+}
+
+.block8 {
+    bottom: 150px;
+    left: 345px;
+}
+
+.block9 {
+    bottom: 185px;
+    left: 380px;
+}
+
+.block10 {
+    bottom: 185px;
+    left: 415px;
+}
+
+.block11 {
+    bottom: 185px;
+    left: 600px;
+}
+
+.block12 {
+    bottom: 185px;
+    left: 520px;
+}
+
+.block13 {
+    bottom: 218px;
+    left: 600px;
+}
+
+.block14 {
+    bottom: 218px;
+    left: 730px;
+}
+
+.block15 {
+    bottom: 218px;
+    left: 765px;
+}
+
+.block16 {
+    bottom: 218px;
+    left: 800px;
+}
+
+.block17 {
+    bottom: 218px;
+    left: 900px;
+}
+
+.block18 {
+    bottom: 218px;
+    left: 935px;
+}
+
+.block19 {
+    bottom: 250px;
+    left: 970px;
+}
+
+
+.block20 {
+    bottom: 250px;
+    left: 1005px;
+}
+
+
+.block21 {
+    bottom: 250px;
+    left: 1040px;
+}
+
+.block22 {
+    bottom: 250px;
+    left: 1075px;
+}
+
+.block23 {
+    bottom: 250px;
+    left: 1110px;
+}
+
+.block24 {
+    bottom: 250px;
+    left: 1145px;
+}
+
+.block25 {
+    bottom: 250px;
+    left: 1180px;
+}
+
+.block26 {
+    bottom: 250px;
+    left: 1215px;
+}
+
+.block27 {
+    bottom: 150px;
+    left: 1350px;
+}
+
+
+.block28 {
+    bottom: 350px;
+    left: 1050px;
+}
+
+.block29 {
+    bottom: 350px;
+    left: 1250px;
+}
+
+
+
+.block {
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+.flap-container {
+    perspective: 1000px;
+    width: 25px;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 200px;
+    left: 135px;
+
+}
+
+.coins {
+    width: 30px;
+    animation:  2s money infinite;
+    transform-origin: center;
+    height: auto;
+ 
+}
+@keyframes money{
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(140deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+    
+}
+
+
+.flap-container1 {
+    width: 25px;
+    position: absolute;
+    bottom: 120px;
+    left: 700px;
+ }
+
+ .coins2{
+    width: 25px;
+        position: absolute;
+    bottom: 230px;
+    left: 425px;
+ }
+
+ .coins3{
+    width: 25px;
+        position: absolute;
+    bottom: 120px;
+    left: 1400px;
+ }
+
+ .coins4{
+    width: 25px;
+        position: absolute;
+    bottom: 400px;
+    left: 1255px;
+ }
+
+ .coins5{
+    width: 25px;
+        position: absolute;
+    bottom: 400px;
+    left: 1055px;
+ }
+
+.money{
+    background: #8cff00;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lava{
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    bottom: 0;
+    left: 200px;
+    background:url(./lava.gif);
+}
+
+.lava1{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    bottom: 0;
+    left: 800px;
+    background:url(./lava.gif);
+}
+
+.alert__w {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+}
+
+.alert{
+    color: #ff0101;
+    background: #000000;
+    width: 100px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert__win {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+}
+
+.alert2{
+    color: #01f7ff;
+    background: #000000;
+    width: 100px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pryvyd{
+    position: absolute;
+    width: 40px;
+    bottom: 100px;
+    left: 560px;
+    animation: linear 3s pryvyd infinite;
+}
+
+.pryvyd2{
+    position: absolute;
+    width: 40px;
+    bottom: 185px;
+    left: 280px;
+    animation: linear 4s pryvyd2 infinite;
+    transform: scale(1, 1);
+
+}
+@keyframes pryvyd2 {
+    0% {
+    left: 280px;
+    transform: scale(1, 1);
+    }
+    49% {
+        transform: scale(1, 1);
+    }
+    50% {
+        left: 150px;
+        transform: scale(1, 1);
+
+    }
+    10% {
+        transform: scale(1, 1);
+        left: 280px;
+
+    }
+}
+
+
+@keyframes pryvyd {
+    0% {
+    left: 560px;
+
+    }
+    50% {
+        left: 740px;
+
+    }
+    10% {
+        left: 560px;
+
+    }
+}
+
+
+
+
+@keyframes jamp{
+    0% {
+
+    }
+    50% {
+
+    }
+    100% {
+
+    }
+}
